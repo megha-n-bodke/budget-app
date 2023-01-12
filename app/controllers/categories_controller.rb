@@ -1,12 +1,12 @@
 class CategoriesController < ApplicationController
   def new
-    @category = Category.new
+    @category = Group.new
   end
 
   def create
-    @category = Category.new(category_params)
+    @category = Group.new(category_params)
     if @category.save
-      redirect_to root_path
+      redirect_to root_path, notice: 'Category was successfully created.'
     else
       render :new
     end
@@ -15,6 +15,6 @@ class CategoriesController < ApplicationController
   private
 
   def category_params
-    params.require(:category).permit(:name)
+    params.require(:group).permit(:name, :icon)
   end
 end
