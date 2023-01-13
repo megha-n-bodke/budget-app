@@ -7,4 +7,7 @@ Rails.application.routes.draw do
   # root "articles#index"
   # root "spalsh_screen#index"
   root "categories#new"
+    resources :categories, only: [:index, :show, :create, :destroy, :new] do
+    resources :transaction, only: [:index, :create, :destroy, :new]
+  end
 end
