@@ -78,9 +78,11 @@
 
 - [Live Demo Link](https://mega-blog-app.herokuapp.com/)
 
+
 - [Video Demo Link](https://www.loom.com/share/d48c6d6e2798421e9eecdfe4ca470d40)
 
 <p align="right"><a href="#readme-top">back to top</a></p>
+
 
 <!-- GETTING STARTED -->
 
