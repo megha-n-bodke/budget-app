@@ -1,7 +1,7 @@
 require 'rails_helper'
 
-RSpec.describe Category, type: :system do
-  subject(:transaction) { Category.create(name: 'Burger', amount: 20, user_id: 1) }
+RSpec.describe Category, type: :model do
+  subject(:transaction) { Category.create(name: 'Bodyshop cream', amount: 45, user_id: 1) }
 
   it 'should not be empty' do
     transaction.name = nil
@@ -9,7 +9,7 @@ RSpec.describe Category, type: :system do
   end
 
   it 'should have the right value' do
-    expect(transaction.name).to eq('Burger')
+    expect(transaction.name).to eq('Bodyshop cream')
   end
 
   it 'should not be empty' do
@@ -18,7 +18,7 @@ RSpec.describe Category, type: :system do
   end
 
   it 'should have the right value' do
-    expect(transaction.amount).to eq(20.to_i)
+    expect(transaction.amount).to eq(45.to_i)
   end
 
   it 'should have user id 1' do
