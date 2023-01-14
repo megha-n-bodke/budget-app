@@ -104,6 +104,12 @@ After you're finished please remove all the comments and instructions!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- Video -->
+
+## :movie_camera: Video documentation
+
+[video](https://www.loom.com/share/d48c6d6e2798421e9eecdfe4ca470d40)
+
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
