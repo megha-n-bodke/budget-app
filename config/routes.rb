@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+  devise_for :users
+  root "spalsh_screen#index"
 
-  # Defines the root path route ("/")
-  # root "articles#index"
+  resources :categories, only: [:index, :show, :create, :destroy, :new] do
+    resources :transaction, only: [:index, :create, :destroy, :new]
+  end
 end

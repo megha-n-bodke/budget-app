@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+.btn-color {
+  background-color: #60b625;
+}
+
+.nav-bg {
+  background-color: #3673bc;
+}
