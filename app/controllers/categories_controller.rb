@@ -1,5 +1,4 @@
 class CategoriesController < ApplicationController
- 
   def new
     @category = Group.new
   end

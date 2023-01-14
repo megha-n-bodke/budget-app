@@ -1,5 +1,5 @@
 class TransactionController < ApplicationController
-   def index
+  def index
     @group = Group.find(params[:category_id])
     @transactions = @group.categories
     @categories = current_user.groups.all
@@ -44,8 +44,4 @@ class TransactionController < ApplicationController
   def transaction_params
     params.require(:category).permit(:name, :amount)
   end
-                
-        
-
 end
-
