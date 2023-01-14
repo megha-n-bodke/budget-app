@@ -112,7 +112,7 @@ After you're finished please remove all the comments and instructions!
 
 - [Video Demo Link](https://yourdeployedapplicationlink.com)
 
-- [Live demo](https://budget-app-wcrc.onrender.com)
+- [Live demo](https://my-budget-app.herokuapp.com/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
